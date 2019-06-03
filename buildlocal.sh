@@ -1,3 +1,3 @@
-rm -rf _builds _steps _projects _cache _temp
-wercker build --git-domain github.com --git-owner microservices-aspnetcore --git-repository ecommerce-inventory
-rm -rf _builds _steps _projects _cache _temp 
+rm -rf .wercker
+wercker build --git-domain github.com --git-owner microservices-aspnetcore-zh --git-repository ecommerce-inventory
+rm -rf .wercker 
